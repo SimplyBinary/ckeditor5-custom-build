@@ -71,7 +71,7 @@ Editor.builtinPlugins = [
 	TextTransformation,
 	Comments,
 	TrackChanges,
-	// RevisionHistory
+	RevisionHistory
 ];
 
 // Editor configuration.
