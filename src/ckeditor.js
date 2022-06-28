@@ -32,7 +32,7 @@ import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefrom
 import Table from '@ckeditor/ckeditor5-table/src/table.js';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar.js';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation.js';
-import Comments from '@ckeditor/ckeditor5-comments/src/comments.js';
+//import Comments from '@ckeditor/ckeditor5-comments/src/comments.js';
 import TrackChanges from '@ckeditor/ckeditor5-track-changes/src/trackchanges.js';
 //import RevisionHistory from '@ckeditor/ckeditor5-revision-history/src/revisionhistory.js';
 
@@ -69,7 +69,7 @@ Editor.builtinPlugins = [
 	Table,
 	TableToolbar,
 	TextTransformation,
-	Comments,
+	//Comments,
 	TrackChanges,
 	//RevisionHistory
 ];
@@ -96,7 +96,7 @@ Editor.defaultConfig = {
 			'undo',
 			'redo',
 			'trackChanges',
-			'comment',
+			// 'comment',
 			// 'revisionHistory',
 			'exportPdf',
 			'exportWord'
