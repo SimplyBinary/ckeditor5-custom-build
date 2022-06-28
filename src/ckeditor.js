@@ -24,17 +24,17 @@ import List from '@ckeditor/ckeditor5-list/src/list.js';
 import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed.js';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph.js';
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice.js';
-import PresenceList from '@ckeditor/ckeditor5-real-time-collaboration/src/presencelist.js';
-import RealTimeCollaborativeComments from '@ckeditor/ckeditor5-real-time-collaboration/src/realtimecollaborativecomments.js';
-import RealTimeCollaborativeEditing from '@ckeditor/ckeditor5-real-time-collaboration/src/realtimecollaborativeediting.js';
-import RealTimeCollaborativeRevisionHistory from '@ckeditor/ckeditor5-real-time-collaboration/src/realtimecollaborativerevisionhistory.js';
-import RealTimeCollaborativeTrackChanges from '@ckeditor/ckeditor5-real-time-collaboration/src/realtimecollaborativetrackchanges.js';
+//import PresenceList from '@ckeditor/ckeditor5-real-time-collaboration/src/presencelist.js';
+//import RealTimeCollaborativeComments from '@ckeditor/ckeditor5-real-time-collaboration/src/realtimecollaborativecomments.js';
+//import RealTimeCollaborativeEditing from '@ckeditor/ckeditor5-real-time-collaboration/src/realtimecollaborativeediting.js';
+//import RealTimeCollaborativeRevisionHistory from '@ckeditor/ckeditor5-real-time-collaboration/src/realtimecollaborativerevisionhistory.js';
+//import RealTimeCollaborativeTrackChanges from '@ckeditor/ckeditor5-real-time-collaboration/src/realtimecollaborativetrackchanges.js';
 import Table from '@ckeditor/ckeditor5-table/src/table.js';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar.js';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation.js';
 import Comments from '@ckeditor/ckeditor5-comments/src/comments.js';
 import TrackChanges from '@ckeditor/ckeditor5-track-changes/src/trackchanges.js';
-import RevisionHistory from '@ckeditor/ckeditor5-revision-history/src/revisionhistory.js';
+//import RevisionHistory from '@ckeditor/ckeditor5-revision-history/src/revisionhistory.js';
 
 class Editor extends ClassicEditor {}
 
@@ -62,16 +62,16 @@ Editor.builtinPlugins = [
 	Paragraph,
 	PasteFromOffice,
 	PresenceList,
-	RealTimeCollaborativeComments,
-	RealTimeCollaborativeEditing,
-	RealTimeCollaborativeRevisionHistory,
-	RealTimeCollaborativeTrackChanges,
+	//RealTimeCollaborativeComments,
+	//RealTimeCollaborativeEditing,
+	//RealTimeCollaborativeRevisionHistory,
+	//RealTimeCollaborativeTrackChanges,
 	Table,
 	TableToolbar,
 	TextTransformation,
 	Comments,
 	TrackChanges,
-	RevisionHistory
+	//RevisionHistory
 ];
 
 // Editor configuration.
