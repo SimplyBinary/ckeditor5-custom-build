@@ -61,7 +61,7 @@ Editor.builtinPlugins = [
 	MediaEmbed,
 	Paragraph,
 	PasteFromOffice,
-	PresenceList,
+	//PresenceList,
 	//RealTimeCollaborativeComments,
 	//RealTimeCollaborativeEditing,
 	//RealTimeCollaborativeRevisionHistory,
